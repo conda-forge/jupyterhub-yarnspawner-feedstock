@@ -10,7 +10,7 @@ source:
   sha256: e5f723025a5315a59076d3f50786240a9252c51a608f942d6928e57e2269ef50
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win or osx or py<35]
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -31,7 +31,7 @@ about:
   home: https://github.com/jcrist/yarnspawner
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE.txt
+  license_file: LICENSE
   summary: Spawn JupyterHub servers in Apache Hadoop/YARN containers
   description: |
     A JupyterHub Spawner for launching notebook servers inside Apache
