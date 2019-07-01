@@ -1,5 +1,5 @@
 {% set name = "jupyterhub-yarnspawner" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 09555c7ea8c9b6735a96c1c903070f28f67aa9b61d3c4672ee73a9e23b6c9f6e
+  sha256: 3b82130c81a31981d929012c628feb7d6d7ec98aeba17946f668fe42023c826b
 
 build:
   number: 0
